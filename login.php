@@ -32,7 +32,7 @@ include 'sql.php';
 			header('Location: member.php');
 		}
 		else {
-			echo "<div id='loginmsg'>Wrong Password </div>"; 
+			echo "<div id='loginmsg'>Wrong Password or invalid user</div>"; 
 			//header('Location: login-problem.php');
 		}
 	}

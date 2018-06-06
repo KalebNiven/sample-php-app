@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Member</title>
-	<link rel="stylesheet" type="text/css" href="css.css">
+	<title>Monkedia: Member</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 	<?php
@@ -11,7 +11,7 @@
 	if (isset($_SESSION['username'])) {
 		echo "<div class='loginbox'>Member: ".$_SESSION['username']."</div>";	
 		?>
-	<table width ="50%" cellspacing="5" cellpadding="5" border="1">
+	<table width ="50%" cellspacing="0" cellpadding="0" border="0" >
 	<th>ID</th>
 	<th>Client Name </th>
 	<?php
